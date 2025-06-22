@@ -37,28 +37,17 @@ Use the arrow keys to move tiles in four directions. When two tiles with the sam
 1. Compile the source code using your favorite C++ compiler, e.g.:
 
 ```bash
-g++ -o 2048game main.cpp game.cpp -std=c++17
+g++ -o 2048game TheGame -std=c++17
 ```
 
 2. Run the executable:
     
-
 ```bash
 ./2048game
 ```
 
 ---
 
-## Project Structure
-
-- `main.cpp`: Entry point, main menu and game loop
-    
-- `game.cpp` / `game.h`: Core game logic and board management
-    
-- `leaderboard.cpp` / `leaderboard.h`: Score tracking and leaderboard handling
-    
-
----
 
 ## License
 
